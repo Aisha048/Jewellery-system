@@ -1,0 +1,72 @@
+.order-table-container {
+    font-family: Arial, sans-serif;
+    margin-left: -40px;
+    margin-right: 10px;
+    width: 150%;
+    margin-top: 20px;
+  }
+  
+  .order-table-container h2 {
+    text-align: center;
+  }
+  
+  .add-order {
+    background-color: #2196F3;
+    color: white;
+    height: 40px;
+    border-color: #2196F3;
+    border-radius: 12%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0;
+  }
+  
+  .order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .order-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .order-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .order-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .order-table button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 8%;
+  }
+  
+  .order-table button:hover {
+    background-color: #45a049;
+  }
+  
+  .order-table button:last-child {
+    background-color: #f44336;
+  }
+  
